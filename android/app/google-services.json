@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "785557877829",
+    "project_id": "tijara-c142c",
+    "storage_bucket": "tijara-c142c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785557877829:android:0a9f986917bc6187891f2c",
+        "android_client_info": {
+          "package_name": "com.example.tijara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785557877829-kdffco25copi32lk7c86mq6b3nlo0rd4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tijara",
+            "certificate_hash": "7430aee3a20d5fdcfc392580e31f108c0966b78e"
+          }
+        },
+        {
+          "client_id": "785557877829-5of1su16qvhem42q5ifseiq8k1p01a7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXu6eViUZCVuFe5E7pNbl1e0_IbJb-jPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785557877829-5of1su16qvhem42q5ifseiq8k1p01a7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
