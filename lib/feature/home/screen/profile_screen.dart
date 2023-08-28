@@ -31,6 +31,7 @@ class _ProfileScreenState extends State<ProfileScreen>
   bool isloading = true;
   UserModel? userModel;
   final auth = FirebaseAuth.instance;
+  @override
   bool get wantKeepAlive => true;
   Future<void> fetchUserInfo() async {
     if (user == null) {

@@ -1,6 +1,5 @@
 import 'package:fancy_shimmer_image/fancy_shimmer_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:provider/provider.dart';
 import 'package:tijara/provider/cart_provider.dart';
 import 'package:tijara/provider/produt_provider.dart';

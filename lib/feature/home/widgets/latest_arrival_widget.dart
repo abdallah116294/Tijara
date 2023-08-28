@@ -27,7 +27,7 @@ class LatestArrivalWidget extends StatelessWidget {
     final cartProvider = Provider.of<CartProvider>(context);
     final wishlistProvider = Provider.of<WishlistProvider>(context);
     Size size = MediaQuery.of(context).size;
-    return SizedBox(
+    return  geCurrentProduct!.productId.isEmpty?const SizedBox(): SizedBox(
       width: size.width * .6,
       child: InkWell(
         onTap: () {
@@ -41,7 +41,7 @@ class LatestArrivalWidget extends StatelessWidget {
               child: ClipRRect(
                   borderRadius: BorderRadius.circular(12),
                   child: FancyShimmerImage(
-                      imageUrl: geCurrentProduct!.productImage,
+                      imageUrl: geCurrentProduct.productImage,
                       width: double.infinity,
                       height: size.height * .22)),
             ),
@@ -62,12 +62,6 @@ class LatestArrivalWidget extends StatelessWidget {
 
                     IconButton(
                         onPressed: () async{
-                          // if (cartProvider.isProductIncart(
-                          //     productId: geCurrentProduct.productId)) {
-                          //   return;
-                          // }
-                          // cartProvider.addproductTocart(
-                          //     productId: geCurrentProduct.productId);
                            if (cartProvider.isProductIncart(
                                 productId: geCurrentProduct.productId)) {
                               return;

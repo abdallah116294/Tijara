@@ -45,7 +45,7 @@ class PickImageWidget extends StatelessWidget {
               child: const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Icon(
-                  Icons.add_shopping_cart_rounded,
+                  Icons.camera_alt,
                   size: 20,
                   color: Colors.white,
                 ),

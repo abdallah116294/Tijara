@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:tijara/feature/auth/screens/login_screen.dart' show LoginScreen;
+import 'package:tijara/feature/root.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -11,9 +11,15 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   Timer? _timer;
 
-  gotNext() => Navigator.of(context).pushAndRemoveUntil(
-      MaterialPageRoute(builder: (context) => const LoginScreen()),
+  gotNext() {
+    if (!mounted) {
+      return;
+    }
+    Navigator.of(context).pushAndRemoveUntil(
+      MaterialPageRoute(builder: (context) => const RootScreen()),
       (route) => false);
+  }
+
   startDely() {
     _timer = Timer(const Duration(milliseconds: 3000), gotNext);
   }
