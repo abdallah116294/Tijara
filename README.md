@@ -94,7 +94,6 @@ This project is licensed under the [MIT license](LICENSE).
 
 If you have any questions or suggestions, feel free to reach out to the project maintainers:
 
-- John Doe - john.doe@example.com
-- Jane Smith - jane.smith@example.com
+-Abdallah abdallhamohamed@gmail.com
 
 We appreciate your interest in Tijara!
