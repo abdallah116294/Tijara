@@ -24,7 +24,7 @@ To run Tijara locally, you need to have the following installed:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone [https://github.com/your-username/tijara-app.git](https://github.com/abdallah116294/Tijara)
+git clone https://github.com/abdallah116294/Tijara
 ```
 
 2. Change into the project directory:
